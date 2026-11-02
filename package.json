@@ -1,0 +1,13 @@
+{
+  "name": "realtime-collaborative-kanban-saas",
+  "version": "1.0.0",
+  "description": "Real-Time Collaborative Multi-Organization Multi-Tenant Kanban Board SaaS Application",
+  "scripts": {
+    "backend": "cd backend && npm run dev",
+    "frontend": "cd frontend && npm run dev",
+    "seed": "cd backend && npm run seed",
+    "install:all": "cd backend && npm install && cd ../frontend && npm install"
+  },
+  "author": "Antigravity",
+  "license": "MIT"
+}
